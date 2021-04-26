@@ -7,12 +7,12 @@
 <br />
 
 ## 🔖 프론트엔드 전반
-* [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
+* 중요도: ★★★★★ [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
 * [V8 Engine](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
 
 <br />
 
 ## 🔖 JavaScript
-* [Event Loop](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-loop.md)
+* 중요도: ★★★★★ [Event Loop](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-loop.md)
 
 <br />
