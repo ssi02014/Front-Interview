@@ -1,4 +1,4 @@
-# 💻 CSR(Client Side Rendering)과 SSR(Server Side Rendering) (with.SPA, MPA)
+# 💻 CSR, SSR (with.SPA, MPA)
 ## 👨🏻‍💻 SPA(Single Page Application)
 - 하나의 HTML 파일을 기반으로 자바스크립트를 이용해 동적으로 화면의 콘텐츠를 바꾸는 방식의 웹 어플리케이션.
 
