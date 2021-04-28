@@ -30,12 +30,9 @@
 <br />
 
 ## 👨🏻‍💻 브라우저의 렌더링 과정
-![browser-rendering-process](https://user-images.githubusercontent.com/64779472/116430545-e586db00-a881-11eb-9228-62e91d08f318.PNG) 
-
-<br />
-<br />
-
 1. 브라우저는 HTML, CSS, JS 등 렌더링에 필요한 리소스를 요청하고 서버로부터 응답을 받는다.
+
+<br />
 
 ![dom](https://user-images.githubusercontent.com/64779472/116430954-431b2780-a882-11eb-85c9-c077f48670bc.PNG) <br />
 2. 브라우저 렌더링 엔진은 응답된 HTML을 파싱 후, `DOM(Document Object Model) 트리` 구축
@@ -47,8 +44,7 @@
 
 <br />
 
-4. JavaScript 실행
-    - 주의, HTML 중간에 `Script`가 있다면 HTML 파싱이 중단된다.
+4. JavaScript 실행(주의, HTML 중간에 `Script`가 있다면 HTML 파싱이 중단된다.)
 
 <br />
 
