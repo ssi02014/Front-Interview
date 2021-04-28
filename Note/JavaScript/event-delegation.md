@@ -25,10 +25,10 @@
 
 <br />
 
-- 가장 안쪽의 <p>를 클릭하면 순서대로 다음과 같은 일이 벌어진다.
-1. <p>에 할당된 onclick 핸들러가 동작
-2. 바로 바깥의 <div>에 할당된 onclick 핸들러가 동작
-3. 그 바깥의 <form>에 할당된 핸들러가 동작
+- 가장 안쪽의 `<p>`를 클릭하면 순서대로 다음과 같은 일이 벌어진다.
+1. `<p>`에 할당된 onclick 핸들러가 동작
+2. 바로 바깥의 `<div>`에 할당된 onclick 핸들러가 동작
+3. 그 바깥의 `<form>`에 할당된 핸들러가 동작
 4. document 객체를 만날 때까지, 각 요소에 할당된 onclick 핸들러가 동작한다.
 
 ![event-bubling](https://user-images.githubusercontent.com/64779472/116424794-c5085200-a87c-11eb-9872-070dc8d98efb.PNG)
