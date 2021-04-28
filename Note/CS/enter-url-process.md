@@ -18,7 +18,7 @@
 <br />
 
 4. HSTS(HTTP Strict Transport Security)목록을 로드해서 확인한다.
-  - HSTS 목록에 있으면 첫 요청을 HTTPS로 보내고, 아닌 경우 HTTP로 보낸다.
+    - HSTS 목록에 있으면 첫 요청을 HTTPS로 보내고, 아닌 경우 HTTP로 보낸다.
 
 ```
   * HTTP Strict Transport Security란? 
@@ -64,7 +64,7 @@
 <br />
 
 11. 웹 브라우저가 그린다. 
-  - 참고 * [Browser Rendering Process](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/browser-rendering-process.md)
+  - 참고 [Browser Rendering Process](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/browser-rendering-process.md)
 
 <br />
 

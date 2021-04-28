@@ -30,35 +30,38 @@
 <br />
 
 ## 👨🏻‍💻 브라우저의 렌더링 과정
-![browser-rendering-process](https://user-images.githubusercontent.com/64779472/116430545-e586db00-a881-11eb-9228-62e91d08f318.PNG)
+![browser-rendering-process](https://user-images.githubusercontent.com/64779472/116430545-e586db00-a881-11eb-9228-62e91d08f318.PNG) 
+
+<br />
+<br />
+
+1. 브라우저는 HTML, CSS, JS 등 렌더링에 필요한 리소스를 요청하고 서버로부터 응답을 받는다.
+
+![dom](https://user-images.githubusercontent.com/64779472/116430954-431b2780-a882-11eb-85c9-c077f48670bc.PNG) <br />
+2. 브라우저 렌더링 엔진은 응답된 HTML을 파싱 후, `DOM(Document Object Model) 트리` 구축
 
 <br />
 
-![dom](https://user-images.githubusercontent.com/64779472/116430954-431b2780-a882-11eb-85c9-c077f48670bc.PNG)
-1. HTML 파싱 후, `DOM(Document Object Model) 트리` 구축
+![cssom](https://user-images.githubusercontent.com/64779472/116431082-65ad4080-a882-11eb-95b4-a8277b373594.PNG) <br />
+3. CSS도 파싱 후, `CSSOM(CSS Object Model) 트리` 구축
 
 <br />
 
-![cssom](https://user-images.githubusercontent.com/64779472/116431082-65ad4080-a882-11eb-95b4-a8277b373594.PNG)
-2. CSS 파싱 후, `CSSOM(CSS Object Model) 트리` 구축
+4. JavaScript 실행
+    - 주의, HTML 중간에 `Script`가 있다면 HTML 파싱이 중단된다.
 
 <br />
 
-3. JavaScript 실행
-  - 주의, HTML 중간에 `Script`가 있다면 HTML 파싱이 중단된다.
+![render-tree](https://user-images.githubusercontent.com/64779472/116431313-a311ce00-a882-11eb-8ab1-f794fc3e7c66.PNG) <br />
+5. DOM과 CSSOM을 조합해 `렌더 트리(Render Tree)` 구축
 
 <br />
 
-![render-tree](https://user-images.githubusercontent.com/64779472/116431313-a311ce00-a882-11eb-8ab1-f794fc3e7c66.PNG)
-4. DOM과 CSSOM을 조합해 `렌더 트리(Render Tree)` 구축
+6. Layout/Reflow 단계: 뷰 포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산 (즉, 브라우저 화면의 어떤 위치에 어떤 크기로 출력될지 계산 하는 단계)
 
 <br />
 
-5. Layout/Reflow 단계: 뷰 포트(Viewport) 내에서 각 노드들의 정확한 위치와 크기를 계산 (즉, 브라우저 화면의 어떤 위치에 어떤 크기로 출력될지 계산 하는 단계)
-
-<br />
-
-6. Paint 단계: 계산한 위치/크기를 기반으로 화면에 그림
+7. Paint 단계: 계산한 위치/크기를 기반으로 화면에 그림
 
 <br />
 
