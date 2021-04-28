@@ -4,12 +4,12 @@
 <br />
 
 ## 👨🏻‍💻 JS Engine(상단 그림의 왼쪽)
-- 자바스크립트 엔진은 Memory Heap과 Call Stack으로 구성되어 있다.(ex. 구글의 V8 Engine)
-- 자바스크립트는 단일 스레드(Single Thread) 기반 프로그래밍 언어인데, 이 의미는 Call Stack이 하나라는 이야기이다.
+- 자바스크립트 엔진은 `Memory Heap`과 `Call Stack`으로 구성되어 있다.(ex. 구글의 V8 Engine)
+- 자바스크립트는 `단일 스레드(Single Thread) 기반 프로그래밍 언어`인데, 이 의미는 Call Stack이 하나라는 이야기이다.
   - Memory Heap: 메모리 할당이 일어나는 곳(ex. 우리가 프로그램에 선언한 변수, 함수 등이 담겨져 있음)
   - Call Stack: 코드가 실행될 때 쌓이는 곳 Stack 형태로 쌓인다. (Stack은 자료구조 중 하나로, 후입선출(LIFO) 방식이다.)
-- 단일 콜 스택을 갖는 다는 의미는, 요청이 동기적으로 처리된다는 것을 의미한다.
-- 비동기 요청을 처리하기 위해서는 자바스크립트를 실행하는 환경인 브라우저나 Node.js가 담당한다.
+- 단일 콜 스택을 갖는 다는 의미는, 요청이 `동기적으로 처리`된다는 것을 의미한다.
+- 비동기 요청을 처리하기 위해서는 자바스크립트를 실행하는 환경인 `브라우저`나 `Node.js`가 담당한다.
 
 <br />
 
@@ -33,7 +33,7 @@
 <br />
 
 ## 👨🏻‍💻 Callback Queue
-- Callback Queue에는 Task Queue와 Microtask Queue가 있다.
+- Callback Queue에는 `Task Queue`와 `Microtask Queue`가 있다.
 - Task Queue는 setTimeout(), setInterval(), UI렌더링, requestAnimationFrame()이 담긴다.
 - Microtask Queue는 Promise(then), MutaionObserver가 담긴다.
 - Event Loop는 우선적으로 Microtask Queue를 확인한다. 만약, Microtask Queue에 콜백이 있다면, 이를 먼저 Call Stack에 담는다. 그리고 Microtask Queue에 처리해야 할 콜백 함수가 없다면, Task Queue에 확인 후 처리한다.
@@ -125,5 +125,5 @@
 <br />
 
 ## 참고
-https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/event-loop.md
-https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84
+https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/event-loop.md <br />
+https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84 <br />

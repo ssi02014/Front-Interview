@@ -14,5 +14,6 @@
 
 ## 🔖 JavaScript (🌟: 중요)
 * 🌟 [Event Loop](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-loop.md)
+* 🌟 [Event Delegation(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
 
 <br />
