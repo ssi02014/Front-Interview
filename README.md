@@ -18,5 +18,6 @@
 ## 🔖 JavaScript (🌟: 중요)
 * 🌟 [이벤트 루프](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-loop.md)
 * [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
+* [🌟스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
 
 <br />
