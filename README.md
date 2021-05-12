@@ -5,6 +5,7 @@
 
 ## 🔖 CS(Computer Science) (🌟: 중요)
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
+* 🌟 [폭포수 vs 애자일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 
 <br />
 
