@@ -30,6 +30,9 @@
 
 <br />
 
+### 🔍 [상급]
+* 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
+
 ## 🔖 React (🌟: 중요)
 * 🌟 [리액트 vs 뷰 vs 앵귤러](https://github.com/ssi02014/Front-Interview/blob/master/Note/React/react-vue-angular.md)
 
