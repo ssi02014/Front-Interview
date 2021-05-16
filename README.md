@@ -5,7 +5,7 @@
 
 ## 🔖 CS(Computer Science) (🌟: 중요)
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
-* 🌟 [폭포수 vs 애자일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
+* [폭포수 vs 애자일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 
 <br />
 
@@ -17,8 +17,8 @@
 <br />
 
 ## 🔖 JavaScript (🌟: 중요)
-### 🔍 [기초] 
-* 🌟 [var, let, const(with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/var-let-const.md)
+### 🔍 [초급] 
+* 🌟 [var, let, const (with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/var-let-const.md)
 * 🌟 [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
 
 <br />
@@ -33,7 +33,9 @@
 ### 🔍 [상급]
 * 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
 
+<br />
+
 ## 🔖 React (🌟: 중요)
-* 🌟 [리액트 vs 뷰 vs 앵귤러](https://github.com/ssi02014/Front-Interview/blob/master/Note/React/react-vue-angular.md)
+* [리액트 vs 뷰 vs 앵귤러](https://github.com/ssi02014/Front-Interview/blob/master/Note/React/react-vue-angular.md)
 
 <br />
