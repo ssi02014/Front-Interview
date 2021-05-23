@@ -36,8 +36,11 @@
 <br />
 
 ## 👨🏻‍💻 DTD
-- DTD(Document Type Definition)란 문서 형식을 정의해놓은 것으로 DOCTYPE을 명시할 때 사용한다. 즉, HTML 문서가 어떤 문서 형식을 따르는지 DOCTYPE에서 DTD를 지정하는 것이다.
+- `DTD(Document Type Definition)`란 문서 형식을 정의해놓은 것으로 DOCTYPE을 명시할 때 사용한다. 즉, HTML 문서가 어떤 문서 형식을 따르는지 DOCTYPE에서 DTD를 지정하는 것이다.
 - 밑에 예시를 참고하고 더 자세하게 알고 싶다면 [W3C Recommended list of Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html) 를 확인한다.
+
+<br />
+
 - XHTML 1.1
 - XHTML 1.0
   - Strict DTD
