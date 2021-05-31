@@ -29,7 +29,7 @@
 <br />
 
 ### 🔍 [중급]
-* [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
+* 🌟 [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
 * 🌟 [Ajax](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/ajax.md)
 
 <br />
@@ -37,6 +37,7 @@
 ### 🔍 [상급]
 * 🌟 [이벤트 루프](https://github.com/ssi02014/sFront-Interview/blob/master/Note/JavaScript/event-loop.md)
 * 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
+* 🌟 [실행 컨텍스트(Execution Context)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/execution-context.md)
 
 <br />
 
