@@ -41,9 +41,9 @@
 <br />
 
 ## 👨🏻‍💻 실행 컨텍스트 스택(Exectuion Context Stack)
-- 실행 컨텍스트가 생성되면 흔히 콜 스택(Call Stack)이라고 불리는 `실행 컨텍스트 스택`에 쌓이게 된다.
-- GEC는 코드를 실행하기 전에 쌓이고, 모든 코드를 실행하면 제거된다.
-- FEC는 함수를 호출할 때 쌓이고 호출이 끝나면 제거된다.
+- 실행 컨텍스트가 생성되면 흔히 `콜 스택(Call Stack)`이라고 불리는 `실행 컨텍스트 스택`에 쌓이게 된다.
+- `GEC`는 코드를 실행하기 전에 쌓이고, 모든 코드를 실행하면 제거된다.
+- `FEC`는 함수를 호출할 때 쌓이고 호출이 끝나면 제거된다.
 
 ```js
   var x = 'xxx';
@@ -74,7 +74,7 @@
 <br />
 
 ### 🏃 Lexical Environment
-- Lexical Environment는 변수 및 함수 등의 식별자(Identifier) 및 외부 참조에 관한 정보를 갖고 있는 컴포넌트이다. 이 컴포넌트는 `Environment Record`, `outer 참조` 2개의 구성요수를 갖는다.
+- Lexical Environment는 `변수 및 함수 등의 식별자(Identifier) 및 외부 참조`에 관한 정보를 갖고 있는 컴포넌트이다. 이 컴포넌트는 `Environment Record`, `outer 참조` 2개의 구성요수를 갖는다.
 - Environment Record가 식별자에 관한 정보를 갖고 있으며, outer 참조는 외부 Lexical Environment를 참조하는 포인터인다.
 - 좀 더 풀어쓰자면 Environment Record는 `최초의 변수`, `Arguments`, `함수 선언`들을 저장한다.
 - outer는 `부모 Environment(reference)`를 저장한다.
@@ -119,7 +119,7 @@
 
 ### 🏃 this 바인딩
 - this의 바인딩은 실행 컨텍스트가 생성될 때마다 this 객체에 `어떻게 바인딩이 되는지`를 나타낸다. 즉, 실행 컨텍스트의 `this 키워드의 반환 값`을 저장한다.
-- this의 키워드는 현재 컨텍스트가 참조하고 있는 객체를 가리키며, 함수 호출 패턴에의해 결정 된다.
+- this의 키워드는 `현재 컨텍스트가 참조하고 있는 객체`를 가리키며, 함수 호출 패턴에의해 결정 된다.
 - ES6부터는 this의 바인딩이 Lexical Environment 안에 있는 Environment Record 안에서 일어난다는 것을 기억하자.(그렇게 중요하지는 않다.)
 - GEC의 경우
   - Strict Mode라면 `undefined`로 바인딩 된다.

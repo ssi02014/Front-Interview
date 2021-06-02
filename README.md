@@ -3,6 +3,38 @@
 
 <br />
 
+### 📄 추가해야 될 이론들(생각날 때마다 추가하고 정리했으면 제거하기)
+- [ ] 빅오 표기법 - CS
+- [ ] OOP 특징 - CS
+- [ ] 각종 알고리즘 - CS
+- [ ] 쿠키와 세션 - CS
+- [ ] 라이브러리와 프레임워크 - CS
+- [ ] RESTful API - CS
+- [ ] TDD란? - CS
+- [ ] CORS란? - CS
+- [ ] 프로세스와 스레드의 차이 - CS
+- [ ] 함수형 프로그래밍이란? - CS
+
+<br />
+
+- [ ] 자바스크립트 형변환 - Js
+- [ ] Fetch - Js
+- [ ] Async/Await - Js
+- [ ] Promise란? - Js
+- [ ] 가비지컬렉터 - Js
+- [ ] 프로토타입 - Js
+- [ ] 자바스크립트에서 this - Js
+- [ ] Babel, Webpack 이란? - Js
+- [ ] 콜백 함수 - Js
+- [ ] 타입스크린트 - Js
+
+<br />
+
+- [ ] 리액트의 상태관리(redux, mobx 등) - React
+- [ ] 리액트의 라이프사이클 - React
+
+<br />
+
 ## 🔖 CS(Computer Science) (🌟: 중요)
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
 * 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
