@@ -24,14 +24,15 @@
 
 ## 🔖 JavaScript (🌟: 중요)
 ### 🔍 [초급] 
+* 🌟 [자바스크립트란? & 일급 객체 & 컴파일/인터프리터 언어](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/javascript.md)
 * 🌟 [var, let, const (with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/var-let-const.md)
-* 🌟 [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
 
 <br />
 
 ### 🔍 [중급]
 * 🌟 [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
 * 🌟 [Ajax](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/ajax.md)
+* 🌟 [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
 
 <br />
 
