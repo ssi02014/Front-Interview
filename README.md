@@ -18,9 +18,8 @@
 <br />
 
 - [ ] 자바스크립트 형변환 - Js
-- [ ] Fetch - Js
+- [ ] XMLHttpRequest와 Fetch - Js
 - [ ] Async/Await - Js
-- [ ] Promise란? - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
 - [ ] 자바스크립트에서 this - Js
@@ -74,6 +73,7 @@
 * 🌟 [이벤트 루프](https://github.com/ssi02014/sFront-Interview/blob/master/Note/JavaScript/event-loop.md)
 * 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
 * 🌟 [실행 컨텍스트(Execution Context)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/execution-context.md)
+* 🌟 [프로미스(Promise)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/promise.md)
 
 <br />
 
