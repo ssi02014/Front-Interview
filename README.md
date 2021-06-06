@@ -17,8 +17,7 @@
 
 <br />
 
-- [ ] 자바스크립트 형변환 - Js
-- [ ] XMLHttpRequest와 Fetch - Js
+- [ ] JSON
 - [ ] Async/Await - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
@@ -64,8 +63,10 @@
 
 ### 🔍 [중급]
 * 🌟 [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
-* 🌟 [Ajax](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/ajax.md)
 * 🌟 [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
+* 🌟 [Ajax](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/ajax.md)
+* 🌟 [XMLHttpRequest와 Fetch](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/xmlhttprequest.md)
+
 
 <br />
 
