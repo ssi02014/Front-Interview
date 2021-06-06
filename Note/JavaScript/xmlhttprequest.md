@@ -2,7 +2,7 @@
 <br />
 
 ## 👨🏻‍💻 XMLHttpRequest
-- XMLHttpRequest(XHR) 객체는 서버와 상호작용하기 위해 사용됩니다.
+- `XMLHttpRequest(XHR)` 객체는 서버와 상호작용하기 위해 사용됩니다.
 - 전체 페이지 새로고침 없이도 `URL`로부터 데이터를 받아올 수 있습니다.
 - 이는 웹페이지가 사용자가 하고있는 것을 방해하지 않으면서 페이지의 일부를 업데이트 할 수 있도록 해줍니다.
 - `XMLHttpRequest`는 `Ajax`프로그래밍이 자주 사용됩니다.
@@ -29,18 +29,18 @@
 <br />
 
 ## 👨🏻‍💻 XMLHttpRequest 메서드
-- new XMLHttpRequest(): 새로운 XMLHttpRequest 객체 생성.
-- abort(): 현재 요청을 취소.
-- getAllResponseHeaders(): 헤더 정보를 반환.
-- getResponseHeader(): 특정 헤더 정보를 반환.
-- open (method, url, async, user, psw): HTTP 요청에 대한 속성을 지정한다.
-  - method : 파라미터 전송 방법을 지정, "GET" 또는 "POST"로 지정할 수 있다.
+- new XMLHttpRequest( ): 새로운 XMLHttpRequest 객체 생성
+- abort( ): 현재 요청을 취소.
+- getAllResponseHeaders( ): `헤더 정보`를 반환.
+- getResponseHeader( ): `특정 헤더 정보`를 반환.
+- open (method, url, async, user, psw): `HTTP 요청에 대한 속성`을 지정한다.
+  - method : 파라미터 전송 방법을 지정, `GET` 또는 `POST`로 지정할 수 있다.
   - url : HTTP 요청을 보낼 원격 페이지의 주소.
-  - async : 요청을 동기, 비동기 처리할지의 여부 true이면 비동기처리, false면 동기로 처리(생략 가능)
+  - async : 요청을 `동기`, `비동기` 처리할지의 여부 `true`이면 비동기처리, `false`면 동기로 처리(생략 가능)
   - user, pwd: http 요청에 대한 인증이 필요할 경우 지정할 수 있는 계정 정보(생략 가능)
-- send(): 서버에 요청 보내기. `GET 방식` 요청일 때 사용.
+- send( ): 서버에 요청 보내기. `GET 방식` 요청일 때 사용.
 - send(string): 서버에 요청 보냄. `POST 방식` 요청일 때 사용.
-- setRequestHeader(): `key/value`쌍의 HTTP 헤더를 전송 목록에 더한다.
+- setRequestHeader( ): `key/value`쌍의 HTTP 헤더를 전송 목록에 더한다.
 
 <br />
 
@@ -78,10 +78,10 @@
 
 <br />
 
-- .responseText : 요청에 대한 응답을 텍스트로 반환합니다.
-- .responseXML : 연결에 대한 응답을 XML DOM 으로 변환합니다. XML 문자열이 아니라 XML DOM으로 반환한다는 것을 염두해 두세요.
-- .status : HTTP 상태 코드를 숫자로 반환합니다. 예를 들면 OK에 대해서 200을, 페이지를 찾을수 없었을 때는 404를 반환합니다.
-- .statusText : HTTP 상태 코드에 대한 문자열을 반환합니다. 예를 들면 "OK", "Not Found" 등이 될수 있습니다.
+- .responseText : 요청에 대한 응답을 `텍스트`로 반환합니다.
+- .responseXML : 연결에 대한 응답을 `XML DOM`으로 변환합니다. XML 문자열이 아니라 XML DOM으로 반환한다는 것을 염두해 두세요.
+- .status : `HTTP 상태 코드`를 `숫자`로 반환합니다. 예를 들면 OK에 대해서 200을, 페이지를 찾을수 없었을 때는 404를 반환합니다.
+- .statusText : `HTTP 상태 코드`에 대한 `문자열`을 반환합니다. 예를 들면 "OK", "Not Found" 등이 될수 있습니다.
 
 <br />
 
