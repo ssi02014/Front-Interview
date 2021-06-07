@@ -72,25 +72,25 @@
 <br />
 
 ## 👨🏻‍💻 쿠키와 세션의 차이점
-1. 🔍 저장 위치
+### 🔍 저장 위치
 - 쿠키: 클라이언트
 - 세션: 서버
 
 <br />
 
-2. 🔍 보안
-- 쿠키: 클라이언트에 저장되므로 보안에 취약
-- 세션: 쿠키를 이용해 세션ID만 저장하고 이 값으로 구분해서 서버에서 처리하므로 쿠키보다 보안성이 좋다.
+### 🔍 보안
+- 쿠키: 클라이언트에 저장되므로 `보안에 취약`
+- 세션: 쿠키를 이용해 세션ID만 저장하고 이 값으로 구분해서 서버에서 처리하므로 `쿠키보다 보안성이 좋다.`
 
 <br />
 
-3. 🔍 라이프사이클
+### 🔍 라이프사이클
 - 쿠키: 만료 시간에 따라 브라우저를 종료해도 계속해서 남아있을 수 있다.
 - 세션: 만료 시간을 정할 수 있지만 브라우저가 종료되면 만료 시간에 상관없이 삭제된다.
 
 <br />
 
-4. 🔍 속도
+### 🔍 속도
 - 쿠키: 클라이언트에 저장되어 서버 요청 시에 빠르다.
 - 세션: 실제 저장된 정보가 서버에 있으므로 서버의 처리가 필요해 쿠키보다 느리다.
 
@@ -127,6 +127,32 @@
 
 <br />
 
+## 👨🏻‍💻 값 가져오는 법과 세팅하는 법
+```js
+  //로컬 스토리지
+  localStorage.getItem("A");
+
+  //세션 스토리지
+  sessionStorage.getItem("A");
+
+  //쿠키
+  getCookie("A");
+```
+<br />
+
+```js
+  //로컬 스토리지
+  localStorage.setItem("A", 1); //Key = A, Value = 1
+
+  //세션 스토리지
+  sessionStorage.setItem("A", 1); //Key = A, Value = 1
+
+  //쿠키
+  setCookie("A", 1, 7);//Key = A, Value = 1, 유효시간 = 7초
+```
+
+<br />
+
 ## 참고
 https://velog.io/@jch9537/Node.js-Session-Cookie <br />
 https://homzzang.com/b/free-1208 <br />
@@ -134,3 +160,4 @@ https://hahahoho5915.tistory.com/32 <br />
 https://interconnection.tistory.com/74 <br />
 https://it-eldorado.tistory.com/90 <br />
 https://racoonlotty.tistory.com/entry/%EC%BF%A0%ED%82%A4%EC%99%80-%EC%84%B8%EC%85%98-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%A1%9C%EC%BB%AC-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80%EC%99%80-%EC%84%B8%EC%85%98-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80 <br />
+https://velog.io/@kler/TIL4-%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%84%B8%EC%85%98%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%BF%A0%ED%82%A4-%EC%A0%95%EB%A6%AC <br />
