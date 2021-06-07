@@ -47,6 +47,7 @@
 * 🌟 [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
 * [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
 * 🌟 [브라우저 렌더링 과정](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/browser-rendering-process.md)
+* 🌟 [프레임워크와 라이브러리](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/library-framework.md)
 
 <br />
 
@@ -70,7 +71,7 @@
 <br />
 
 ### 🔍 [상급]
-* 🌟 [이벤트 루프](https://github.com/ssi02014/sFront-Interview/blob/master/Note/JavaScript/event-loop.md)
+* 🌟 [이벤트 루프](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-loop.md)
 * 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
 * 🌟 [실행 컨텍스트(Execution Context)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/execution-context.md)
 * 🌟 [프로미스(Promise)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/promise.md)
