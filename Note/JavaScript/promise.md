@@ -110,12 +110,12 @@
   - .setRequestHeader(key,value) : key/value 쌍의 HTTP 헤더를 전송 목록에 더합니다.
 
   - .onreadystatechange: HTTP요청의 상태 변화에 따라 호출되는 이벤트 핸들러입니다.
-    1. 0 (uninitialized) : open 메서드가 호출되기 이전.
-    2. 1 (loading) : HTTP 요청 준비가 된 상태. 하지만 아직 보내지 않은 상태. send 메서드 호출 전의 상태.
-    3. 2 (loaded) : HTTP 요청을 보내어 처리하고 있는 중. 헤더는 읽을 수 있는 상태.
-    4. 3 (interactive) : 데이터를 받고 있는 중. 하지만 완전히 받지는 못한 상태.
-    5. 4 (complete) : 데이터를 완전히 받은 상태. 비로소 responseText 와 responseXML 속성을 읽을 수 있는 상태.
-
+    1. 0 (UNSENT) : XMLHttpRequest 객체가 생성됨.
+    2. 1 (OPENED) : open() 메소드가 성공적으로 실행됨.
+    3. 2 (HEADERS_RECEIVED) : HTTP 요청을 보내어 처리하고 있는 중. 헤더는 읽을 수 있는 상태.
+    4. 3 (LOADING) : 요청한 데이터를 처리 중임.
+    5. 4 (DONE) : 요청한 데이터의 처리가 완료되어 응답할 준비가 완료됨. 비로소 responseText 와 responseXML 속성을 읽을 수 있는 상태.
+    
   - .responseText : 요청에 대한 응답을 텍스트로 반환합니다.
   - .responseXML : 연결에 대한 응답을 XML DOM 으로 변환합니다. XML 문자열이 아니라 XML DOM으로 반환한다는 것을 염두해 두세요.
   - .status : HTTP 상태 코드를 숫자로 반환합니다. 예를 들면 OK에 대해서 200을, 페이지를 찾을수 없었을 때는 404를 반환합니다.
