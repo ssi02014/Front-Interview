@@ -7,7 +7,6 @@
 - [ ] 빅오 표기법 - CS
 - [ ] OOP 특징 - CS
 - [ ] 각종 알고리즘 - CS
-- [ ] 쿠키와 세션 스토리지 - CS
 - [ ] RESTful API - CS
 - [ ] TDD란? - CS
 - [ ] CORS란? - CS
@@ -37,6 +36,7 @@
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
 * 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 * 🌟 [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/synchronous-asynchronous.md)
+* 🌟 [쿠키와 세션 그리고 웹 스토리지](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
 * [폭포수 vs 애자일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 
 <br />
