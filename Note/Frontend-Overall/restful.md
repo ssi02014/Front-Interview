@@ -6,7 +6,10 @@
 - 🌟 REST는 `Representational State Transfer`의 약자이다.
 - 🌟 자원의 이름(자원의 표현)으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것을 의미한다.
 - 🌟 즉, 자원(resource)의 표현(representation)에 의한 상태 전달이다.
-- 자원(resource)의 표현(representation)
+
+<br />
+
+- **자원(resource)의 표현(representation)**
   - 자원: 해당 소프트웨어가 관리하는 모든 것 ex) 문서, 그림, 데이터, 해당 소프트웨어 자체 등
   - 표현: 그 자원을 표현하기 위한 이름 ex) DB의 학생 정보가 자원일 때, student를 자원의 표현으로 정한다.
 - 상태(정보) 전달
@@ -18,8 +21,8 @@
 <br />
 
 ### 🏃 REST의 구체적인 개념
-- HTTP URI(Uniform Resource Identifier)를 통해 `자원(Resource)`을 명시하고, `HTTP Method(POST, GET, PUT, DELETE)`를 통해 해당 자원에 대한 `CRUD Operation`을 적용하는 것을 의미한다.
-- 즉, REST는 `자원 기반의 구조(ROA, Resource Oriented Architecture)`설계의 중심에 `Resource`가 있고 `HTTP Method`를 통해 `Resource를 처리`하도록 설계된 아키텍처를 의미한다.
+- HTTP URI(Uniform Resource Identifier)를 통해 `자원(Resource)`을 명시하고, `HTTP Method(POST, GET, PUT, DELETE)`를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 의미한다.
+- 즉, REST는 `자원 기반의 구조(ROA, Resource Oriented Architecture)`설계의 중심에 Resource가 있고 HTTP Method를 통해 Resource를 처리하도록 설계된 아키텍처를 의미한다.
 - 웹 사이트의 이미지, 텍스트, DB 내용 등의 모든 자원에 고유한 ID인 HTTP URL을 부여한다.
 - CRUD Operation
   - Create: 생성(POST)
@@ -31,14 +34,14 @@
 <br />
 
 ### 🏃 REST 구성 요소
-- 자원(Resource): URI
+- **자원(Resource): URI**
   - 모든 자원에 고유한 ID가 존재하고, 이 자원은 Server에 존재한다.
   - 자원을 구별하는 ID는 `/groups/:group_id`와 같은 `HTTP URI`이다.
   - Client는 URI를 이용해서 자원을 지정하고 해당 자원의 상태(정보)에 대한 조작을 Server에 요청한다.
-- 행위(Verv): HTTP Method
+- **행위(Verv): HTTP Method**
   - `HTTP 프로토콜의 Method`를 사용한다.
   - HTTP 프로토콜은 GET, POST, PUT, DELETE와 같은 메서드를 제공한다.
-- 표현(Representation of Resource)
+- **표현(Representation of Resource)**
   - Client가 자원의 상태(정보)에 대한 `조작을 요청`하면 Server는 이에 적절한 `응답(Representation)`을 보낸다.
   - REST에서 하나의 자원은 JSON, XML, TEXT, RSS 등 여러 형태의 Representation으로 나타내어 질 수 있다.
   - `JSON` 혹은 `XML`을 통해 데이터를 주고 받는 것이 일반적이다.
@@ -48,14 +51,29 @@
 ### 🏃 REST의 특징
 - **Uniform Interface(인터페이스 일관성)**
   - Uniform Interface는 URI로 지정한 `리소스에 대한 조작을 통일`되고 `한정적인 인터페이스`로 수행하는 아키텍처 스타일을 말한다.
+
+<br />
+
 - **Stateless (무상태성)**
-  - REST는 무상태성 성격을 갖습니다. 다시 말해 작업을 위한 상태정보를 따로 저장하고 관리하지 않다. 세션 정보나 쿠키정보를 별도로 저장하고 관리하지 않기 때문에 API 서버는 들어오는 요청만을 단순히 처리하면 됩니다. 때문에 서비스의 자유도가 높아지고 서버에서 불필요한 정보를 관리하지 않음으로써 구현이 단순해집니다.
+  - REST는 무상태성 성격을 갖는다. 다시 말해 작업을 위한 상태정보를 따로 저장하고 관리하지 않는다. 세션 정보나 쿠키정보를 별도로 저장하고 관리하지 않기 때문에 API 서버는 들어오는 요청만을 단순히 처리하면 된다. 그렇기 때문에 서비스의 자유도가 높아지고 서버에서 불필요한 정보를 관리하지 않음으로써 구현이 단순해진다.
+
+<br />
+
 - **Cacheable (캐시 처리 가능)**
-  - REST의 가장 큰 특징 중 하나는 HTTP라는 기존 웹표준을 그대로 사용하기 때문에, 웹에서 사용하는 기존 인프라를 그대로 활용이 가능합니다. 따라서 HTTP가 가진 `캐싱 기능`이 적용 가능합니다. HTTP 프로토콜 표준에서 사용하는 Last-Modified태그나 E-Tag를 이용하면 캐싱 구현이 가능합니다.
+  - REST의 가장 큰 특징 중 하나는 HTTP라는 기존 웹표준을 그대로 사용하기 때문에, 웹에서 사용하는 기존 인프라를 그대로 활용이 가능하다. 따라서 HTTP가 가진 `캐싱 기능`이 적용 가능하고 HTTP 프로토콜 표준에서 사용하는 Last-Modified태그나 E-Tag를 이용하면 캐싱 구현이 가능하다.
+
+<br />
+
 - **Self-descriptiveness (자체 표현 구조)**
-  - REST의 또 다른 큰 특징 중 하나는 REST API 메시지만 보고도 이를 쉽게 이해 할 수 있는 자체 표현 구조로 되어 있다는 것입니다.
+  - REST의 또 다른 큰 특징 중 하나는 REST API 메시지만 보고도 이를 쉽게 이해 할 수 있는 자체 표현 구조로 되어 있다는 것이다.
+
+<br />
+
 - **Client-Server 구조**
   - REST 서버는 `API 제공`, 클라이언트는 사용자 인증이나 컨텍스트(세션, 로그인 정보)등을 `직접 관리`하는 구조로 각각의 역할이 확실히 구분되기 때문에 클라이언트와 서버에서 개발해야 할 내용이 명확해지고 서로간 의존성이 줄어들게 됩니다.
+
+<br />
+
 - Layered System (계층형 구조)
   - REST 서버는 `다중 계층`으로 구성될 수 있으며 `보안`, `로드 밸런싱`, `암호화 계층`을 추가해 구조상의 유연성을 둘 수 있고 `PROXY`, `게이트웨이` 같은 네트워크 기반의 중간매체를 사용할 수 있게 합니다.
 
