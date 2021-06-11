@@ -7,7 +7,6 @@
 - [ ] 빅오 표기법 - CS
 - [ ] OOP 특징 - CS
 - [ ] 각종 알고리즘 - CS
-- [ ] RESTful API - CS
 - [ ] TDD란? - CS
 - [ ] CORS란? - CS
 - [ ] 프로세스와 스레드의 차이 - CS
@@ -15,7 +14,7 @@
 
 <br />
 
-- [ ] JSON
+- [ ] JSON - overall
 - [ ] Async/Await - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
