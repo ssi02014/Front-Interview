@@ -14,7 +14,6 @@
 
 <br />
 
-- [ ] JSON - overall
 - [ ] Async/Await - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
@@ -32,6 +31,7 @@
 <br />
 
 ## 🔖 CS(Computer Science) (🌟: 중요)
+### 🔍 [Overall]
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
 * 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 * 🌟 [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/synchronous-asynchronous.md)
@@ -40,12 +40,16 @@
 
 <br />
 
+### 🔍 [알고리즘과 자료구조] 
+
+<br />
+
 ## 🔖 프론트엔드 전반 (🌟: 중요)
-* 🌟 [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
-* [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
 * 🌟 [브라우저 렌더링 과정](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/browser-rendering-process.md)
 * 🌟 [프레임워크와 라이브러리](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/library-framework.md)
 * 🌟 [REST API](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/restful.md)
+* 🌟 [JSON](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/json.md)
+* [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
 
 <br />
 
@@ -79,6 +83,7 @@
 <br />
 
 ## 🔖 React (🌟: 중요)
+* 🌟 [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
 * [리액트 vs 뷰 vs 앵귤러](https://github.com/ssi02014/Front-Interview/blob/master/Note/React/react-vue-angular.md)
 
 <br />
