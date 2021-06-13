@@ -7,13 +7,13 @@
 - [ ] 빅오 표기법 - CS
 - [ ] OOP 특징 - CS
 - [ ] 각종 알고리즘 - CS
-- [ ] TDD란? - CS
-- [ ] CORS란? - CS
 - [ ] 프로세스와 스레드의 차이 - CS
 - [ ] 함수형 프로그래밍이란? - CS
 
 <br />
 
+- [ ] TDD란? - Overall
+- [ ] CORS란? - Overall
 - [ ] Async/Await - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
