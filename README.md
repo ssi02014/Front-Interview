@@ -14,7 +14,6 @@
 
 - [ ] TDD란? - Overall
 - [ ] CORS란? - Overall
-- [ ] Async/Await - Js
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
 - [ ] 자바스크립트에서 this - Js
@@ -69,8 +68,6 @@
 * 🌟 [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
 * 🌟 [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
 * 🌟 [Ajax](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/ajax.md)
-* 🌟 [XMLHttpRequest와 Fetch](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/xmlhttprequest.md)
-
 
 <br />
 
@@ -79,6 +76,8 @@
 * 🌟 [클로저(Closure)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/closure.md)
 * 🌟 [실행 컨텍스트(Execution Context)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/execution-context.md)
 * 🌟 [프로미스(Promise)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/promise.md)
+* 🌟 [XMLHttpRequest와 Fetch](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/xmlhttprequest.md)
+* 🌟 [async/await](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/async-await.md)
 
 <br />
 
