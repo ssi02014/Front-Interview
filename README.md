@@ -17,7 +17,6 @@
 - [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
 - [ ] 자바스크립트에서 this - Js
-- [ ] Babel, Webpack 이란? - Js
 - [ ] 콜백 함수 - Js
 - [ ] 타입스크린트 - Js
 - [ ] ES6 특징들(화살표 함수 등) - Js
@@ -50,6 +49,7 @@
 * 🌟 [REST(Representational State Transfer) API](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/restful.md)
 * 🌟 [JSON(JavaScript Object Notation)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/json.md)
 * [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
+* [타입스크립트](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/typescript.md) - (보완 필요)
 
 <br />
 
