@@ -48,8 +48,8 @@
 * 🌟 [프레임워크(Framework)와 라이브러리(Library)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/library-framework.md)
 * 🌟 [REST(Representational State Transfer) API](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/restful.md)
 * 🌟 [JSON(JavaScript Object Notation)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/json.md)
-* [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md) - (보완 필요)
-* [타입스크립트](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/typescript.md) - (보완 필요)
+* [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md)
+* [타입스크립트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/typescript.md)
 
 <br />
 
