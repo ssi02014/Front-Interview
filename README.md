@@ -4,7 +4,6 @@
 <br />
 
 ### 📄 추가해야 될 이론들(생각날 때마다 추가하고 정리했으면 제거하기)
-- [ ] 빅오 표기법 - CS
 - [ ] OOP 특징 - CS
 - [ ] 각종 알고리즘 - CS
 - [ ] 프로세스와 스레드의 차이 - CS
@@ -36,6 +35,7 @@
 * 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
 * [폭포수(Waterfall) vs 애자일(Agile)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 * [컴파일러, 트랜스파일러, 폴리필](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/transcompiler.md)
+* [빅오(Big-O)표기법](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/big-O.md)
 
 <br />
 
