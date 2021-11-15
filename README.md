@@ -13,12 +13,9 @@
 
 - [ ] TDD란? - Overall
 - [ ] CORS란? - Overall
-- [ ] 가비지컬렉터 - Js
 - [ ] 프로토타입 - Js
 - [ ] 자바스크립트에서 this - Js
 - [ ] 콜백 함수 - Js
-- [ ] 타입스크린트 - Js
-- [ ] ES6 특징들(화살표 함수 등) - Js
 
 <br />
 
@@ -33,13 +30,15 @@
 * 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 * 🌟 [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/synchronous-asynchronous.md)
 * 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
+* 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
 * [폭포수(Waterfall) vs 애자일(Agile)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 * [컴파일러, 트랜스파일러, 폴리필](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/transcompiler.md)
-* [빅오(Big-O)표기법](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/big-O.md)
+* 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
 
 <br />
 
 ### 🔍 [알고리즘과 자료구조] 
+* [빅오(Big-O)표기법](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/big-O.md)
 
 <br />
 
