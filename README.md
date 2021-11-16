@@ -30,10 +30,10 @@
 * 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 * 🌟 [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/synchronous-asynchronous.md)
 * 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
-* 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
+* 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
+* 🌟 [캐시(Cache)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cache.md)
 * [폭포수(Waterfall) vs 애자일(Agile)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 * [컴파일러, 트랜스파일러, 폴리필](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/transcompiler.md)
-* 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
 
 <br />
 
