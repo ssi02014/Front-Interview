@@ -5,7 +5,6 @@
 
 ### 📄 추가해야 될 이론들(생각날 때마다 추가하고 정리했으면 제거하기)
 - OOP 특징 - CS
-- 함수형 프로그래밍이란? - CS
 - 운영체제란, 프로세스와 스레드, CPU 스케쥴링, 페이징, 세그먼테이션, 단편화, 가상 메모리, 페이지 부재, 페이지 교체, 시스템 콜
 - 유니캐스트, 멀티캐스트, 브로드 캐스트
 - JWT
@@ -21,11 +20,8 @@
 ## 🔖 CS(Computer Science) (🌟: 중요)
 ### 🔍 [Overall]
 * 🌟 [주소창에 URL 입력하면 벌어지는 일](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/enter-url-process.md)
-* 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 * 🌟 [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/synchronous-asynchronous.md)
-* 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
-* 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
-* 🌟 [캐시(Cache)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cache.md)
+* 🌟 [함수형프로그래밍(Functional Programming)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/functionalProgramming.md)
 * [폭포수(Waterfall) vs 애자일(Agile)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/waterfall-Agile.md)
 * [컴파일러, 트랜스파일러, 폴리필](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/transcompiler.md)
 
@@ -33,6 +29,18 @@
 
 ### 🔍 [알고리즘과 자료구조] 
 * [빅오(Big-O)표기법](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/big-O.md)
+
+<br />
+
+### 🔍 [WEB]
+* 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
+* 🌟 [캐시(Cache)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cache.md)
+
+<br />
+
+### 🔍 [Network]
+* 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
+* 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 
 <br />
 
