@@ -8,19 +8,17 @@
 - [ ] 각종 알고리즘 - CS
 - [ ] 프로세스와 스레드의 차이 - CS
 - [ ] 함수형 프로그래밍이란? - CS
+- 유니캐스트, 멀티캐스트, 브로드 캐스트
+- ARP, RARP, GARP
+- TCP/UDP
 
 <br />
 
-- [ ] TDD란? - Overall
-- [ ] CORS란? - Overall
+- [ ] TDD? - Overall
+- [ ] CORS? - Overall
 - [ ] 프로토타입 - Js
 - [ ] 자바스크립트에서 this - Js
 - [ ] 콜백 함수 - Js
-
-<br />
-
-- [ ] 리액트의 상태관리(redux, mobx 등) - React
-- [ ] 리액트의 라이프사이클 - React
 
 <br />
 
