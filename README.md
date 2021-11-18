@@ -4,21 +4,17 @@
 <br />
 
 ### 📄 추가해야 될 이론들(생각날 때마다 추가하고 정리했으면 제거하기)
-- [ ] OOP 특징 - CS
-- [ ] 각종 알고리즘 - CS
-- [ ] 프로세스와 스레드의 차이 - CS
-- [ ] 함수형 프로그래밍이란? - CS
+- OOP 특징 - CS
+- 함수형 프로그래밍이란? - CS
+- 운영체제란, 프로세스와 스레드, CPU 스케쥴링, 페이징, 세그먼테이션, 단편화, 가상 메모리, 페이지 부재, 페이지 교체, 시스템 콜
 - 유니캐스트, 멀티캐스트, 브로드 캐스트
-- ARP, RARP, GARP
-- TCP/UDP
-
-<br />
-
-- [ ] TDD? - Overall
-- [ ] CORS? - Overall
-- [ ] 프로토타입 - Js
-- [ ] 자바스크립트에서 this - Js
-- [ ] 콜백 함수 - Js
+- JWT
+- FTP, SMTP 등
+- (네트워크)네트워크와 모델, 포트, 데이터 통신(LAN, ethernet), 데이터 링크 계층, ipv4, ipv6, ARP, RARP, GARP, TCP/UDP, CORS, 3-way handshake, 4-way handshake
+- TDD? - Overall
+- 자바스크립트 프로토타입 - Js
+- 자바스크립트에서 this - Js
+- 자바스크립트 콜백 함수 - Js
 
 <br />
 
