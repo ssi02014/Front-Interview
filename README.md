@@ -51,6 +51,8 @@
 * 🌟 [JSON(JavaScript Object Notation)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/json.md)
 * [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md)
 * [타입스크립트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/typescript.md)
+* [require vs import](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/require-import.md)
+
 
 <br />
 
