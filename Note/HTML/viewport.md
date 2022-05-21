@@ -9,7 +9,7 @@
 - 현대에는 워낙 다양한 휴대폰, 테블릿 기기들이 나오면서 viewport 크기의 종류도 굉장히 다양하다. 따라서 이런 다양한 viewport 크기에 대응하기 위해서는 HTML5에서 제공하는 meta 태그를 이용해 viewport의 크기, Zoom in/out 도 조정할 수 있게 설정해줘야 한다.
 
 <br />
-​
+
 ## 👨🏻‍💻 viewport
 
 ![스크린샷 2022-05-22 오전 12 21 50](https://user-images.githubusercontent.com/64779472/169658189-006fb99b-3a6a-450c-956d-86352537a3ac.png)
