@@ -65,7 +65,8 @@
 
 ## 🔖 HTML (🌟: 중요)
 
-- 🌟 [DOCTYPE](https://github.com/ssi02014/Front-Interview/blob/master/Note/HTML/doctype.md)
+- [DOCTYPE](https://github.com/ssi02014/Front-Interview/blob/master/Note/HTML/doctype.md)
+- [viewport](https://github.com/ssi02014/Front-Interview/blob/master/Note/HTML/viewport.md)
 
 <br />
 
