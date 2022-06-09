@@ -48,6 +48,7 @@
 
 - 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
 - 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
+- 🌟 [TCP와 UDP](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/tcp-udp.md)
 
 <br />
 
