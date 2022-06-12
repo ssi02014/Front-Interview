@@ -109,3 +109,5 @@
 <br />
 
 ## 🔖 TypeScript (🌟: 중요)
+
+- [타입스크린트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
