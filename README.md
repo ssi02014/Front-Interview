@@ -4,21 +4,6 @@
 
 <br />
 
-### 📄 추가해야 될 이론들(생각날 때마다 추가하고 정리했으면 제거하기)
-
-- OOP 특징 - CS
-- 운영체제란, 프로세스와 스레드, CPU 스케쥴링, 페이징, 세그먼테이션, 단편화, 가상 메모리, 페이지 부재, 페이지 교체, 시스템 콜
-- 유니캐스트, 멀티캐스트, 브로드 캐스트
-- JWT
-- FTP, SMTP 등
-- (네트워크)네트워크와 모델, 포트, 데이터 통신(LAN, ethernet), 데이터 링크 계층, ipv4, ipv6, ARP, RARP, GARP, TCP/UDP, CORS, 3-way handshake, 4-way handshake
-- TDD? - Overall
-- 자바스크립트 프로토타입 - Js
-- 자바스크립트에서 this - Js
-- 자바스크립트 콜백 함수 - Js
-
-<br />
-
 ## 🔖 CS(Computer Science) (🌟: 중요)
 
 ### 🔍 [Overall]
@@ -37,19 +22,24 @@
 
 <br />
 
-### 🔍 [WEB]
+### 🔍 [WEB Browser]
 
 - 🌟 [쿠키(Cookie)와 세션(Session) 그리고 웹 스토리지(Web Storage)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cookie-session.md)
 - 🌟 [캐시(Cache)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/cache.md)
 
 <br />
 
-### 🔍 [Network]
+### 🔍 [운영체제(OS)]
+
+<br />
+
+### 🔍 [네트워크(Network)]
 
 - 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
 - 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 - 🌟 [TCP와 UDP](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/tcp-udp.md)
 
+<br />
 <br />
 
 ## 🔖 프론트엔드 전반 (🌟: 중요)
@@ -59,7 +49,6 @@
 - 🌟 [REST(Representational State Transfer) API](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/restful.md)
 - 🌟 [JSON(JavaScript Object Notation)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/json.md)
 - [V8 엔진](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/V8.md)
-- [타입스크립트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/typescript.md)
 - [require vs import](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/require-import.md)
 
 <br />
@@ -112,7 +101,7 @@
 
 ## 🔖 TypeScript (🌟: 중요)
 
-- [타입스크린트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
+- 🌟 [타입스크린트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
 - [타입스크립트 기본 타입 및 자주 사용하는 유틸리티 타입](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/types.md)
 
 <br />
