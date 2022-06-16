@@ -125,6 +125,8 @@ function neverEnd(): never {
 
 - Null, Undefined
 
+<br />
+
 ## 👨🏻‍💻 유틸 타입
 
 ### Partial<Type>
@@ -136,8 +138,6 @@ type Partial<T> = {
   [P in keyof T]?: T[P];
 };
 ```
-
-<br />
 
 ```ts
 interface Todo {
@@ -173,8 +173,6 @@ type Required<T> = {
 };
 ```
 
-<br />
-
 ```ts
 interface Props {
   a?: number;
@@ -199,8 +197,6 @@ type ReadOnly<T> = {
   readonly [P in keyof T]: T[P];
 };
 ```
-
-<br />
 
 ```ts
 interface Todo {
@@ -229,8 +225,6 @@ type Record<K, T> = {
 };
 ```
 
-<br />
-
 ```ts
 interface PageInfo {
   title: string;
@@ -256,8 +250,6 @@ type Pick<T, K extends keyof T> = {
   [P in K]: T[P];
 };
 ```
-
-<br />
 
 ```ts
 interface Todo {
@@ -292,8 +284,6 @@ const todo: TodoPreview = {
 type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
 ```
 
-<br />
-
 ```ts
 interface Todo {
   title: string;
@@ -326,14 +316,30 @@ const todo: TodoPreview = {
 type Exclude<T, U> = T extends U ? never : T;
 ```
 
-<br />
-
 ```ts
 type T0 = Exclude<"a" | "b" | "c", "a">;
 // type T0 = "b" | "c"
 
 type T1 = Exclude<"a" | "b" | "c", "a" | "b">;
 // type T1 = "c"
+```
+
+<br />
+
+### Extract<Type, Union>
+
+- `Union`에 할당할 수 있는 `모든 유니온 멤버`를 `Type`에서 가져와서 타입을 생성합니다.
+
+```ts
+type Extract<T, U> = T extends U ? T : never;
+```
+
+```ts
+type T0 = Extract<"a" | "b" | "c", "a" | "f">;
+// type T0 = "a"
+
+type T1 = Extract<string | number | (() => void), Function>;
+// type T1 = () => void
 ```
 
 <br />
@@ -367,26 +373,6 @@ type T4 = Parameters<never>;
 
 type T5 = Parameters<string>;
 // Type 'string' does not satisfy the constraint '(...args: any) => any'.
-```
-
-<br />
-
-### Extract<Type, Union>
-
-- `Union`에 할당할 수 있는 `모든 유니온 멤버`를 `Type`에서 가져와서 타입을 생성합니다.
-
-```ts
-type Extract<T, U> = T extends U ? T : never;
-```
-
-<br />
-
-```ts
-type T0 = Extract<"a" | "b" | "c", "a" | "f">;
-// type T0 = "a"
-
-type T1 = Extract<string | number | (() => void), Function>;
-// type T1 = () => void
 ```
 
 <br />
