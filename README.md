@@ -38,6 +38,7 @@
 - 🌟 [DNS(Domain Name System)](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/DNS.md)
 - 🌟 [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/http-https.md)
 - 🌟 [TCP와 UDP](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/tcp-udp.md)
+- [유니캐스트/브로드캐스트/멀티캐스트](https://github.com/ssi02014/Front-Interview/blob/master/Note/CS/uni-broad-multicast.md)
 
 <br />
 <br />
