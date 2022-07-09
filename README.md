@@ -66,6 +66,7 @@
 ### 🔍 [초급]
 
 - 🌟 [자바스크립트란? & 일급 객체 & 컴파일/인터프리터 언어](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/javascript.md)
+- [헷갈리는 용어(값, 리터럴, 표현식, 문, 토큰)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/value-literal-statement.md)
 - 🌟 [var, let, const (with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/var-let-const.md)
 
 <br />
