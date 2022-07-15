@@ -98,7 +98,7 @@
 
 ## 🔖 TypeScript (🌟: 중요)
 
-- [타입스크린트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
+- [타입스크립트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
 - [타입스크립트 기본 타입 및 자주 사용하는 유틸리티 타입](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/types.md)
 
 <br />
