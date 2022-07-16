@@ -70,9 +70,9 @@
 
 ## 🔖 JavaScript
 
-- [자바스크립트란? & 일급 객체 & 컴파일/인터프리터 언어](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/javascript.md)
-- [헷갈리는 용어(값, 리터럴, 표현식, 문, 토큰)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/value-literal-statement.md)
-- [문서 객체 모델(Document Object Model:DOM)](ttp://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/dom-tree.md)
+- [자바스크립트란? & 일급 객체 & 컴파일/인터프리터 언어](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/javascript.md)
+- [헷갈리는 용어(값, 리터럴, 표현식, 문, 토큰)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/value-literal-statement.md)
+- [문서 객체 모델(Document Object Model:DOM)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/dom-tree.md)
 - [var, let, const (with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/var-let-const.md)
 - [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/event-delegation.md)
 - [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/Note/JavaScript/scope.md)
