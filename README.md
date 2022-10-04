@@ -90,6 +90,10 @@
 
 <br />
 
+### 🌟 JavaScript 심화
+
+<br />
+
 ## 🔖 React
 
 - [CSR (Client Side Rendering) vs SSR(Server Side Rendering)](https://github.com/ssi02014/Front-Interview/blob/master/Note/Frontend-Overall/csr-ssr.md)
@@ -99,9 +103,19 @@
 
 <br />
 
-## 🔖 TypeScript (🌟: 중요)
+### 🌟 React 심화
+
+- [React 재조정(Reconciliation), Virtual DOM 비교](https://github.com/ssi02014/Front-Interview/blob/master/Note/React/reconciliation.md)
+
+<br />
+
+## 🔖 TypeScript
 
 - [타입스크립트란?](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/typescript.md)
 - [타입스크립트 기본 타입 및 자주 사용하는 유틸리티 타입](https://github.com/ssi02014/Front-Interview/blob/master/Note/typescript/types.md)
+
+<br />
+
+### 🌟 TypeScript 심화
 
 <br />
