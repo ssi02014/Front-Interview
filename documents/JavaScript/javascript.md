@@ -3,6 +3,7 @@
 <br />
 
 ## 👨🏻‍💻 자바스크립트란?
+
 - 자바스크립트(JavaScript)는 `객체(Object) 기반의 스크립트 언어`이다.
 - HTML로는 웹의 내용을 작성하고, CSS로는 웹을 디자인하며, 자바스크립트로는 웹의 동작을 구현할 수 있다.
 - 자바스크립트는 주로 `웹 브라우저`에서 사용되거나, `Node.js`와 같은 프레임워크를 사용하면 서버 측 프로그래밍언어에서도 사용할 수 있다.
@@ -11,6 +12,7 @@
 <br />
 
 ## 👨🏻‍💻 자바스크립트 특징
+
 - 자바스크립트는 `객체 기반의 스크립트 언어`이다.
 - 자바스크립트는 동적 타입 언어이며, 타입을 명시할 필요가 없는 `인터프리어 언어`이다. 따라서 프로그램을 실행하는 도중에 변수에 저장되는 데이터 타입이 동적으로 바뀔 수 있다.
 - 자바스크립트는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있다.
@@ -22,25 +24,30 @@
 <br />
 
 ## 👨🏻‍💻 일급 객체란?
+
 - 일급 객체란, 컴퓨터 프로그래밍에서 일반적으로 다른 객체들에 적용 가능한 연산을 모두 지원하는 객체
 - 자바스크립트의 함수가 이 일급 객체이다.
 
 <br />
 
 ### 🏃 일급 객체의 조건
+
 - 변수(Variable)에 담을 수 있다.
+
 ```js
-  let bar = function() {
-    return 'Javascript';
-  } 
+let bar = function () {
+  return "Javascript";
+};
 ```
+
 <br />
 
 - 파라미터로 전달할 수 있다.
+
 ```js
 let number = [1, 2, 3];
 
-number.forEach(function(x) {
+number.forEach(function (x) {
   console.log(x * 2);
 });
 ```
@@ -48,47 +55,54 @@ number.forEach(function(x) {
 <br />
 
 - 반환 값으로 사용할 수 있다.
+
 ```js
-  function test() {
-    return function() {
-      console.log('Javascript');
-    }
-  }
+function test() {
+  return function () {
+    console.log("Javascript");
+  };
+}
 
-  let bar = test();
+let bar = test();
 
-  bar();
+bar();
 ```
 
 <br />
 
 ## 👨🏻‍💻 자바 vs 자바스크립트
+
 ### 🏃 Java(자바)
-  - 컴파일 언어
-  - 타입 검사를 엄격하게 함
-  - 클래스(Class)기반의 객체 지향 언어
+
+- 컴파일 언어
+- 타입 검사를 엄격하게 함
+- 클래스(Class)기반의 객체 지향 언어
 
 <br />
 
 ### 🏃 JavaScript(자바스크립트)
-  - 인터프리터 언어
-  - 타입을 명시하지 않음
-  - 프로토타입(prototype)기반의 객체 지향 언어
+
+- 인터프리터 언어
+- 타입을 명시하지 않음
+- 프로토타입(prototype)기반의 객체 지향 언어
 
 <br />
 
 ## 👨🏻‍💻 컴파일 언어와 인터프리터 언어
+
 ### 🏃 컴파일 언어
+
 - 컴파일: `고급 언어(인간이 구분하기 쉬운 언어)`로 작성된 프로그램을 `기계어(컴퓨터 등의 기계가 이해할 수 있는 언어)`로 번역하고 기계어 프로그램으로 고치는 과정이다.
 - 컴파일러: 컴파일을 수행하는 소프트웨어
 - 컴파일 언어: 소스 코드 여러 개를 묶어서 컴파일 한 후에 실행되는 프로그래밍 언어(ex. C, Java 등)
 - 특징
   - 컴파일 하는데 시간이 걸리지만 실행되는 속도가 빠르다.
-  - 컴파일을 하게 되면 실행 가능한 파일(목적 프로그램)이 생성된다. 
+  - 컴파일을 하게 되면 실행 가능한 파일(목적 프로그램)이 생성된다.
 
 <br />
 
 ### 🏃 인터프리터 언어
+
 - 인터프리터: 고급 언어로 작성된 프로그램을 `한줄 단위로 받아 들여 번역`하고, 번역과 동시에 프로그램을 `한 줄 단위로 실행`시키는 프로그램이다.
 - 인터프리터 언어: 소스 코드를 바로 실행하는 컴퓨터 프로그램 또는 환경을 말한다. 즉, 소스 코드를 한줄 한줄씩 읽어가면서 실행하는 프로그래밍 언어이다.
 - 특징: 프로그램을 바로 실행할 수 있고 동작을 확인해 가면서 프로그램을 개발할 수 있다. 하지만, 프로그램 코드를 한 줄 한 줄 번역하면서 실행하기 때문에 컴파일 언어보다 처리 속도가 느리다는 단점이 있다.
@@ -96,6 +110,7 @@ number.forEach(function(x) {
 <br />
 
 ### 🏃 컴파일 vs 인터프리터 차이점
+
 - 실행 단계의 차이
   - 컴파일 언어는 `컴파일러` 단계가 필요하고, 인터프리터 언어는 별도의 `컴파일러` 과정이 필요하지 않다.
 - 생산 속도 차이
@@ -111,6 +126,7 @@ number.forEach(function(x) {
 <br />
 
 ## 👨🏻‍💻 프로그래밍 언어의 유형
+
 - 절차적 언어: 절차를 순서대로 작성해나가는 언어
 - 객체 지향 언어: 처리와 관련된 데이터와 절차를 하나로 묶어 객체 단위로 관리하는 언어
 - 함수형 언어: 프로그램을 함수로 조합하여 구현해 나가는 언어
@@ -119,9 +135,10 @@ number.forEach(function(x) {
 <br />
 
 ## 참고
-https://coding-factory.tistory.com/303 <br />
-https://hoon26.tistory.com/21 <br />
-https://velog.io/@emily0_0/%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%96%B8%EC%96%B4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0-%EC%96%B8%EC%96%B4 <br />
-https://opentutorials.org/module/3989/26105 <br />
-https://velog.io/@sparkbosing/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%96%B8%EC%96%B4%EC%9D%98-%ED%8A%B9%EC%A7%95 <br />
-https://codedragon.tistory.com/3443 <br />
+
+https://coding-factory.tistory.com/303
+https://hoon26.tistory.com/21
+https://velog.io/@emily0_0/%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%96%B8%EC%96%B4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0-%EC%96%B8%EC%96%B4
+https://opentutorials.org/module/3989/26105
+https://velog.io/@sparkbosing/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%96%B8%EC%96%B4%EC%9D%98-%ED%8A%B9%EC%A7%95
+https://codedragon.tistory.com/3443
