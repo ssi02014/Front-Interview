@@ -92,6 +92,8 @@
 
 ### 🌟 JavaScript 심화
 
+- [자바스크립트 가비지 컬렉션](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/gc.md)
+
 <br />
 
 ## 🔖 React
