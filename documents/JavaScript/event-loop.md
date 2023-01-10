@@ -1,9 +1,11 @@
 # 💻 Event Loop
+
 ![event-loop](https://user-images.githubusercontent.com/64779472/116123381-e7c02c80-a6fd-11eb-859b-f5375b051f01.PNG)
 
 <br />
 
 ## 👨🏻‍💻 JS Engine(상단 그림의 왼쪽)
+
 - 자바스크립트 엔진은 `Memory Heap`과 `Call Stack`으로 구성되어 있다.(ex. 구글의 V8 Engine)
 - 자바스크립트는 `단일 스레드(Single Thread) 기반 프로그래밍 언어`인데, 이 의미는 Call Stack이 하나라는 이야기이다.
   - Memory Heap: 메모리 할당이 일어나는 곳(ex. 우리가 프로그램에 선언한 변수, 함수 등이 담겨져 있음)
@@ -14,13 +16,15 @@
 <br />
 
 ## 👨🏻‍💻 Web API
-- Wep API는 JS Engine이 아니다.
-- Wep API는 브라우저에서 제공하는 API로, DOM, AJAX, Timeout 등이 있다.
+
+- Web API는 JS Engine이 아니다.
+- Web API는 브라우저에서 제공하는 API로, DOM, AJAX, Timeout 등이 있다.
 - Call Stack에서 실행된 비동기 함수는 Web API를 호출하고, Web API는 콜백 함수를 Callback Queue에 넣는다.
 
 <br />
 
 ## 👨🏻‍💻 Event Loop
+
 - Event Loop는 Call Stack과 Callback Queue의 상태를 체크하여, Call Stack이 빈 상태가 되면, Callback Queue의 첫번째 콜백 함수를 Call Stack에 넣는다.
 - 위와 같은 반복적인 행동일 틱(Tick)이라고 부른다.
 - **과정 정리)**
@@ -33,6 +37,7 @@
 <br />
 
 ## 👨🏻‍💻 Callback Queue
+
 - Callback Queue에는 `Task Queue`와 `Microtask Queue`가 있다.
 - Task Queue는 setTimeout(), setInterval(), UI렌더링, requestAnimationFrame()이 담긴다.
 - Microtask Queue는 Promise(then), MutaionObserver가 담긴다.
@@ -43,24 +48,27 @@
 - **동작 예시 1)**
 
 ```js
-  console.log('script start'); 
+console.log('script start');
 
-  setTimeout(function() {
-    console.log('setTimeout');
-  }, 0);
+setTimeout(function () {
+  console.log('setTimeout');
+}, 0);
 
-  Promise.resolve().then(function() {
+Promise.resolve()
+  .then(function () {
     console.log('promise1');
-  }).then(function() {
+  })
+  .then(function () {
     console.log('promise2');
   });
 
-  console.log('script end');
+console.log('script end');
 ```
 
 <br />
 
 - **결과**
+
 ```
   script start
   script end
@@ -125,5 +133,5 @@
 <br />
 
 ## 참고
-https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/event-loop.md <br />
-https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84 <br />
+
+https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/event-loop.md <br /> https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84 <br />
