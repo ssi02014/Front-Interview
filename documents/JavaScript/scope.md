@@ -11,10 +11,10 @@
 <br />
 
 ```js
-let x = "global";
+let x = 'global';
 
 function foo() {
-  let x = "function scope";
+  let x = 'function scope';
   console.log(x);
 }
 
@@ -33,7 +33,7 @@ console.log(x);
 ### 🏃 자바스크립트에서 스코프
 
 - 전역 스코프(Global Scope): 코드 어디에서든지 참조할 수 있다.
-- 지역 스코프(Local Scopr or Function-level Scope): 함수 코드 블록이 만든 스코프로 함수 자신과 하위 함수에서만 참조할 수 있다.
+- 지역 스코프(Local Scope or Function-level Scope): 함수 코드 블록이 만든 스코프로 함수 자신과 하위 함수에서만 참조할 수 있다.
 
 <br />
 
@@ -84,10 +84,10 @@ console.log(x);
 <br />
 
 ```js
-var global = "global";
+var global = 'global';
 
 function foo() {
-  var local = "local";
+  var local = 'local';
   console.log(global);
   console.log(local);
 }
@@ -105,14 +105,14 @@ console.log(local); // Uncaught ReferenceError: local is not defined
 - 함수 밖에서 선언한 함수 스코프 변수는 전역 범위를 가지고, 함수 안에서 사용하면 함수 밖을 제외한 내부 어디서든 접근이 가능한다.
 
 ```js
-var a = "global";
+var a = 'global';
 
 function foo() {
-  var b = "local1";
+  var b = 'local1';
   console.log(a); //global - 전역변수. 출력가능.
 
   if (true) {
-    var c = "local2";
+    var c = 'local2';
     console.log(b); //local1 - 해당 함수 내 선언한 변수. 출력 가능.
   }
 
@@ -120,7 +120,7 @@ function foo() {
 }
 
 function bar() {
-  var d = "local3";
+  var d = 'local3';
   console.log(d); //local3 - 해당 함수 내 선언한 변수. 출력 가능.
   console.log(a); //global - 전역변수. 출력가능.
   console.log(b); //해당 함수 내 선언한 변수가 아님. Error
@@ -186,6 +186,6 @@ bar(); // ?
 
 ## 참고
 
-https://poiemaweb.com/js-scope
-https://eblee-repo.tistory.com/37
-https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/scope.md
+- https://poiemaweb.com/js-scope
+- https://eblee-repo.tistory.com/37
+- https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/scope.md
