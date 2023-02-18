@@ -6,10 +6,9 @@
 
 <br />
 
-## 🤓 Notion 정리
+## 🌟 Contributors
 
-- 해당 저장소 기술 면접 리스트를 계속 추가 할 예정이지만 Notion 정리도 참고하실 분은 참고하시길 바랍니다.
-- [기술 면접 리스트(Notion)](https://www.notion.so/v1-2-0-2c4d4292c8574027b50150c5ef6e02b5)
+[![contributors](https://contrib.rocks/image?repo=ssi02014/Front-Interview)](https://github.com/ssi02014/Front-Interview/graphs/contributors)
 
 <br />
 
@@ -108,6 +107,7 @@
 ### 🌟 React 심화
 
 - [React 재조정(Reconciliation), Virtual DOM 비교](https://github.com/ssi02014/Front-Interview/blob/master/documents/React/reconciliation.md)
+- [ErrorBoundary](https://github.com/ssi02014/Front-Interview/blob/master/documents/React/errorBoundary.md)
 
 <br />
 
