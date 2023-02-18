@@ -73,14 +73,14 @@
 
 ### 🏃 CSS가 HTML 문서 상단에 배치되면 유리한 점
 
-- 브라우저가 전달받는 HTML 문서는 위에어 아래로 처리되기 때문에 CSS를 HTML 문서 상단에 배치하면 렌더링 엔진이 CSS를 이용하여 렌더 트리를 구성하는 과정에서 조금이라도 빨리 스타일 정보를 제공받기 때문에 이 편이 조금 더 유리하다.
+- 브라우저가 전달받는 HTML 문서는 위에서 아래로 처리되기 때문에 CSS를 HTML 문서 상단에 배치하면 렌더링 엔진이 CSS를 이용하여 렌더 트리를 구성하는 과정에서 조금이라도 빨리 스타일 정보를 제공받기 때문에 이 편이 조금 더 유리하다.
 - 따라서, `body` 태그가 선언되기 전 `head` 태그에서 선언하는 것이 일반적이다.
 
 <br />
 
 ### 🏃 JS를 HTML 하단에 배치하면 유리한 점
 
-- CSS의 경우 HTML 문서 상단에 배치하는 것이 유리하지만 JS의 경우에는 문서 하단에 배치한느 것이 유리하다.
+- CSS의 경우 HTML 문서 상단에 배치하는 것이 유리하지만 JS의 경우에는 문서 하단에 배치하는 것이 유리하다.
 - JS 영역을 처리하는 과정에는 모든 작업이 정지하고 해석과 구현을 하는 데에 우선적으로 대응하기 때문이다.
 - 따라서 DOM Tree 구성과 Render Tree 구성을 최대한 진행한 뒤 JS를 처리하는 것이 유리하다.
 
@@ -88,6 +88,4 @@
 
 ## 참고
 
-https://d2.naver.com/helloworld/59361 <br />
-https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/frontend/browser-rendering.md <br />
-https://velog.io/@st2702/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95 <br />
+https://d2.naver.com/helloworld/59361 <br /> https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/frontend/browser-rendering.md <br /> https://velog.io/@st2702/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95 <br />
