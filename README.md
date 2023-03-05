@@ -106,6 +106,7 @@
 
 ### 🌟 React 심화
 
+- [UseState는 비동기/배치 처리된다.](https://github.com/ssi02014/Front-Interview/blob/master/documents/React/useState.md)
 - [React 재조정(Reconciliation), Virtual DOM 비교](https://github.com/ssi02014/Front-Interview/blob/master/documents/React/reconciliation.md)
 - [ErrorBoundary](https://github.com/ssi02014/Front-Interview/blob/master/documents/React/errorBoundary.md)
 
