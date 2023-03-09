@@ -47,6 +47,7 @@
 - [HTTP와 HTTPS](https://github.com/ssi02014/Front-Interview/blob/master/documents/CS/http-https.md)
 - [TCP와 UDP](https://github.com/ssi02014/Front-Interview/blob/master/documents/CS/tcp-udp.md)
 - [유니캐스트/브로드캐스트/멀티캐스트](https://github.com/ssi02014/Front-Interview/blob/master/documents/CS/uni-broad-multicast.md)
+- [웹 서버와 WAS](https://github.com/ssi02014/Front-Interview/blob/master/documents/CS/webserver-was.md)
 
 <br />
 <br />
