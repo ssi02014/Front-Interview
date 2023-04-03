@@ -19,6 +19,7 @@
 - 사실 `var`, `let`, `const`, `function`, `function*`, `class` 키워드를 사용해서 선언하는 모든 식별자는 호이스팅이 된다.
   - 왜? 모든 선언문은 런타임 이전 단계에서 먼저 실행되기 때문이다.
   - 하지만 위에서도 언급했듯이 let과 const는 블록 스코프의 최상단으로 호이스팅되어 선언은 되지만, 값이 할당 전까지 어떠한 값으로도 초기화되지 않는다. 따라서 var로 선언한 변수는 선언 전에 사용해서 에러가 발생하지 않지만 let, const는 `ReferenceError`가 발생한다.
+  - 이런 ReferenceError가 발생하는 시점을 `TDZ(Temporal Dead Zone)`라고 한다.
 
 <br />
 

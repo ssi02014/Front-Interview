@@ -29,10 +29,18 @@ console.log(bazz); // ReferenceError
 
 ### 🏃 호이스팅(Hoisting)
 
+![스크린샷 2023-04-03 오후 3 23 14](https://user-images.githubusercontent.com/64779472/229427531-89489356-9338-4bc6-8e0b-4644f568e864.png)
+
 - `호이스팅`은 코드에 선언된 변수 및 함수를 코드 `최상단`으로 끌어올리는 것을 말한다.
-- 함수 내에 선언 된 함수 범위의 변수는 해당 함수 최상단으로 끌어올려지고, 함수 외부에 선언한 전역 범위의 변수는 스크립트의 최상단으로 끌어올려진다.
-- var는 함수 스코프의 최상단으로 `호이스팅` 되고 선언과 동시에 `undefined 로 초기화` 된다.
-- let과 const는 블록 스코프의 최상단으로 호이스팅 되어 선언만 되고, `값이 할당되기 전까지 어떤 값으로도 초기화되지 않는다.` 따라서 var로 선언한 변수는 선언 전에 사용해도 에러가 나지 않지만 let, const는 `ReferenceError`가 발생합니다.
+- 함수 내에 선언 된 함수 스코프의 변수는 해당 함수 스코프의 최상단으로 끌어올려지고, 함수 외부에 선언한 전역 변수는 전역 스코프의 최상단으로 끌어올려진다.
+- 위에 설명들은 현상적인 접근이며 정확하게 말하면, **호이스팅은 자바스크립트 엔진이 변수와 함수의 `메모리 공간`을 런타임 이전에 미리 할당하는 것**을 의미한다.
+- 다음 문서를 참고하자 [호이스팅 문서](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/hoisting.md)
+
+<br />
+
+- var는 `호이스팅` 되고 선언과 동시에 `undefined 로 초기화` 된다.
+- let과 const는 호이스팅 되어 선언만 되고, `값이 할당되기 전까지 어떤 값으로도 초기화되지 않는다.` 따라서 var로 선언한 변수는 선언 전에 사용해도 에러가 나지 않지만 let, const는 `ReferenceError`가 발생합니다.
+  - 이런 ReferenceError가 발생하는 시점을 `TDZ(Temporal Dead Zone)`라고 한다.
 
 ```js
 function run() {
@@ -60,10 +68,14 @@ function checkHoisting() {
 checkHoisting();
 ```
 
+![스크린샷 2023-04-03 오후 3 18 15](https://user-images.githubusercontent.com/64779472/229426647-59a5e128-ce8b-4aed-bbce-227ddec6d733.png)
+
 <br />
 
+### 초기 값과 재할당
+
 - var, let은 변수 선언시 초기 값을 주지 않아도 되지만 const는 `반드시 초기값을 할당`해야 합니다.
-- var, let은 `재할당이 가능`하다.
+- var, let은 `재할당이 가능`하다. const는 재할당 할 수 없다.
 
 ```js
     const foo;
