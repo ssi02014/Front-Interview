@@ -88,6 +88,7 @@
 - [XMLHttpRequest와 Fetch](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/xmlhttprequest.md)
 - [async/await](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/async-await.md)
 - [이터러블/이터레이터, 제너레이터](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/iterator-generator.md)
+- [자바스크립트 부동소수점 계산 문제](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/floating-point.md)
 
 <br />
 
