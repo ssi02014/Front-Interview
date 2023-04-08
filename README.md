@@ -73,11 +73,20 @@
 
 ## 🔖 JavaScript
 
+### ⭐️ 초급
+
 - [자바스크립트란? & 일급 객체 & 컴파일/인터프리터 언어](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/javascript.md)
 - [헷갈리는 용어(값, 리터럴, 표현식, 문, 토큰)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/value-literal-statement.md)
 - [문서 객체 모델(Document Object Model:DOM)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/dom-tree.md)
 - [var, let, const (with.호이스팅)](http://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/var-let-const.md)
 - [이벤트 위임(with. bubbling, Capturing)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/event-delegation.md)
+- [자바스크립트 부동소수점 계산 문제](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/floating-point.md)
+- [객체 프로퍼티 접근법(마침표 접근, 대괄호 접근)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/accessing-properties.md)
+
+<br />
+
+### ⭐️ 중급
+
 - [스코프(Scope)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/scope.md)
 - [호이스팅(Hoisting)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/hoisting.md)
 - [이벤트 루프(Event Loop)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/event-loop.md)
@@ -87,14 +96,13 @@
 - [프로미스(Promise)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/promise.md)
 - [XMLHttpRequest와 Fetch](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/xmlhttprequest.md)
 - [async/await](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/async-await.md)
-- [이터러블/이터레이터, 제너레이터](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/iterator-generator.md)
-- [자바스크립트 부동소수점 계산 문제](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/floating-point.md)
 
 <br />
 
-### 🌟 JavaScript 심화
+### ⭐️ 심화
 
 - [자바스크립트 가비지 컬렉션](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/gc.md)
+- [이터러블/이터레이터, 제너레이터](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/iterator-generator.md)
 
 <br />
 
