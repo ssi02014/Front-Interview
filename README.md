@@ -83,6 +83,7 @@
 - [자바스크립트 부동소수점 계산 문제](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/floating-point.md)
 - [객체 프로퍼티 접근법(마침표 접근, 대괄호 접근)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/accessing-properties.md)
 - [원시 타입 vs 객체(참조) 타입](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/primitive-object.md)
+- [함수: 값에 의한 호출(call by value), 참조에 의한 호출(call by reference)](https://github.com/ssi02014/Front-Interview/blob/master/documents/JavaScript/callbyvalue-reference.md)
 
 <br />
 
