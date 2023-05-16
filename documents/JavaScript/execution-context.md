@@ -80,7 +80,7 @@ foo();
 
 ### 🏃 Lexical Environment
 
-- Lexical Environment는 `변수 및 함수 등의 식별자(Identifier) 및 외부 참조`에 관한 정보를 갖고 있는 컴포넌트이다. 이 컴포넌트는 `Environment Record`, `outer 참조` 2개의 구성요수를 갖는다.
+- Lexical Environment는 `변수 및 함수 등의 식별자(Identifier) 및 외부 참조`에 관한 정보를 갖고 있는 컴포넌트이다. 이 컴포넌트는 `Environment Record`, `outer 참조` 2개의 구성요소를 갖는다.
 - Environment Record가 식별자에 관한 정보를 갖고 있으며, outer 참조는 외부 Lexical Environment를 참조하는 포인터인다.
 - 좀 더 풀어쓰자면 Environment Record는 `최초의 변수`, `Arguments`, `함수 선언`들을 저장한다.
 - outer는 `부모 Environment(reference)`를 저장한다.
